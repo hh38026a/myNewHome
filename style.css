@@ -24,3 +24,66 @@ h2 {
 h1 {
   text-align: center;
 }
+
+table {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th,
+td {
+  border: 2px solid orange;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  color: navy;
+  background-color: #ffffe0;
+  font-family: "Flavors", cursive;
+  font-weight: 400;
+}
+
+form {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+form label,
+form legend {
+  color: navy;
+  font-weight: 600;
+}
+
+form > label {
+  display: block;
+  margin-top: 16px;
+}
+
+form input:not([type="radio"]),
+form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 6px;
+  padding: 8px;
+  border: 1px solid #025333;
+  font: inherit;
+}
+
+form fieldset {
+  margin-top: 16px;
+  border: 1px solid #025333;
+}
+
+form button {
+  margin-top: 16px;
+  padding: 8px 16px;
+  border: 1px solid #025333;
+  background-color: #ffffe0;
+  color: navy;
+  font: inherit;
+  cursor: pointer;
+}
